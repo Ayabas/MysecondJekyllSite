@@ -1,0 +1,9 @@
+name: "My Second Jekyll Template"
+description: "my second description"
+url: "http://ayabas.github.io/MysecondJekyllSite"
+baseurl: "/MysecondJekyllSite"
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
