@@ -2,7 +2,7 @@
 
 layout: post
 Title: My Second Post
-tag:"second"
+tag: "second"
 
 ---
 
@@ -19,12 +19,13 @@ tag:"second"
 </ul>
 
 
+{% for post in site.posts %}
 	{% if post.tag == "first" %}
 	
 			<h3><a href={{ site.baseurl }}{{ post.title }}> {{ post.title}} </a></h3>
 				 
-	 {% endfor %}
+	 {% endif %}
 			
-
+{% endfor %}
 
 
