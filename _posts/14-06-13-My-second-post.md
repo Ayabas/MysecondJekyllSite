@@ -19,4 +19,12 @@ tag:"second"
 </ul>
 
 
+	{% if post.tag == "first" %}
+	
+			<h3><a href={{ site.baseurl }}{{ post.title }}> {{ post.title}} </a></h3>
+				 
+	 {% endfor %}
+			
+
+
 
