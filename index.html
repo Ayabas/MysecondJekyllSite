@@ -1,14 +1,18 @@
 ---
 
 layout: page
-
+title: My Second Jekyll Site
 ---
-MyHome
 
 <section>
+
     <article class="container">
-    <h1><a href="{{ site.baseurl }}/">Home</a>
-	<a href="{{ site.baseurl }}/page2/">Page2</a>
-	<a href="{{ site.baseurl }}/page3/">Page3</a></h1>
+		<h1>Welcome</h1>
+		<h4>Post to come...</h4>
+		
+		{% for post in site.posts %}
+			<p>{{ post.title }}</p>
+		{% endfor %}
+		
    </article>
 </section>
