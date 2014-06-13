@@ -1,8 +1,8 @@
 name: "My Second Jekyll Template"
 description: "my second description"
 
-source:.
-destination:_site
+source: .
+destination: _site
 
 url: "http://ayabas.github.io/MysecondJekyllSite/"
 baseurl: "/MysecondJekyllSite"
