@@ -3,6 +3,7 @@ description: "my second description"
 
 source:.
 destination:_site
+
 url: "http://ayabas.github.io/MysecondJekyllSite/"
 baseurl: "/MysecondJekyllSite"
 paginate: 10

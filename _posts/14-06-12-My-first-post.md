@@ -1,6 +1,6 @@
 ---
 
-layout: post:
+layout: post
 Title: My First Post
 tag:"second"
 
