@@ -2,6 +2,7 @@
 
 layout: post:
 Title: My Second Post
+tag:"second"
 
 ---
 
