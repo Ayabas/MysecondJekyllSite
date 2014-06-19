@@ -1,0 +1,21 @@
+---
+layout: page
+title: page 3
+---
+
+<h3>this is my THIRD page</h3>
+
+<p>
+cool.
+</p>
+
+{% for post in site.posts %}
+
+			{% if post.tag == "second" %}
+				<h3>
+					<a href="{{ site.baseurl }}{{ post.url }}">
+						{{ post.title }} 
+					</a>
+				</h3>
+			{% endif %}
+{% endfor %}

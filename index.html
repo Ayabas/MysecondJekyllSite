@@ -1,23 +1,28 @@
 ---
-
 layout: page
-title: My Second Jekyll Site
-
+title: mySecondJekyllSite
 ---
 
 <section>
+	<article class="container">
+		<h1>this is all my content</h1>
+		<h4>I'm going to put some posts here:</h4>
 
-    <article class="container">
-		<h1>Welcome</h1>
-		<h4>Post to come...</h4>
-		
 		{% for post in site.posts %}
-		
-			<h3><a href="{{ site.baseurl }}/{{ post.title }}">{{ post.title }}</a></h3>
-			<p><a href="{{ site.baseurl }}/page2/">Page2</a></p>
-			<p> {{ post.content }} </p>
-			
+			<h3>
+				<a href="{{ site.baseurl }}{{ post.url }}">
+					{{ post.title }} 
+				</a>
+			</h3>
+
+			<p>{{ post.content }}</p>
 		{% endfor %}
-		
-   </article>
+
+<!-- this is a comment -->
+
+	</article>
 </section>
+
+
+
+

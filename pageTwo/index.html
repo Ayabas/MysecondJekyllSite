@@ -1,0 +1,27 @@
+---
+layout: page
+title: page 2
+---
+
+<h3>this is my second page</h3>
+
+<p>
+<a href="{{ site.baseurl }}/">HOME!</a>
+</p>
+
+<p>
+<a href="{{ site.baseurl }}/css/kraken.css">CSS!</a>
+</p>
+
+
+{% for post in site.posts %}
+
+			{% if post.tag == "first" %}
+				<h3>
+					<a href="{{ site.baseurl }}{{ post.url }}">
+						{{ post.title }} 
+					</a>
+				</h3>
+			{% endif %}
+{% endfor %}
+
