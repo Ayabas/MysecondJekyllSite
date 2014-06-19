@@ -5,4 +5,5 @@ tag: Lamb Chops
 category: image
 ---
 
-![Alternate Text]({{ site.baseurl }}/media/Pic5.jpeg)
+![Alternate Text]({{ site.baseurl }}/media/Pic5.jpg)
+
