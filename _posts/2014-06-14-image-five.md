@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Laptop
-tag: laptop
+title: Lamb Chops
+tag: Lamb Chops
 category: image
 ---
 

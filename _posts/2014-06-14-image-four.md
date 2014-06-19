@@ -1,7 +1,7 @@
 ---
 layout: post
-title: imac 2
-tag: imac2
+title: Tika Masala
+tag: Tika Masala
 category: image
 ---
 
