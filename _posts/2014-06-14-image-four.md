@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tika Masala
-tag: Tika Masala
+title: Brie Baguette
+tag: Brie Baguette
 category: image
 ---
 
