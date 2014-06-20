@@ -6,4 +6,4 @@ tag: "first"
 
 <h2>This is my first post in Jekyll!</h2>
 
-<small>great.</small>
+<small>yup my first post</small>
